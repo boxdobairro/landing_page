@@ -10,14 +10,15 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 90vh;
+            min-height: 90vh; /* Usar min-height para se adaptar ao conteúdo */
             margin: 0;
             background-color: #8cc63f;
             text-align: center;
         }
         .container {
-            max-width: 400px;
-            padding: 20px;
+            max-width: 90%; /* Ajuste para ser responsivo */
+            width: 400px; /* Largura padrão para desktop */
+            padding: 5%; /* Ajuste para ser responsivo */
             background: white;
             border-radius: 12px;
             box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -26,27 +27,30 @@
             margin-bottom: 20px;
         }
         .logo img {
-            max-width: 400px; /* Ajuste o tamanho da imagem se precisar */
+            max-width: 100%; /* Garante que a imagem do logo se ajuste ao contêiner */
             height: auto;
         }
         h1 {
             color: #492e8e;
+            font-size: 1.8em;
         }
- 	h2 {
-	   font-size: 1.3em;
+        h2 {
+            font-size: 1.3em;
             color: #492e8e;
         }
         p {
             color: #666;
             line-height: 1.6;
+            font-size: 1em;
         }
         .contact-info {
             margin-top: 20px;
             font-size: 1.1em;
             color: #333;
-         }
-        .contact-info a img {
-            width: 150px; /* Limita o tamanho da imagem do email */
+        }
+        /* Remover a largura fixa para a imagem do email */
+        .contact-info img {
+            max-width: 100%;
             height: auto;
         }
         .contact-info p {
@@ -61,21 +65,15 @@
             <img src="logo.png" alt="Logotipo do Negócio">
         </div>
         <h1>Bem vindo à Box do Bairro!!!</h1>
-        <p>Na Box do Bairro temos dísponíveis arrecadações com dimensões desde 1m2 até 1Om2 com contratos a partir de 1 mês de duração.</p>
+        <p>Na Box do Bairro temos disponíveis arrecadações com dimensões desde 1m2 até 10m2 com contratos a partir de 1 mês de duração.</p>
         <p>Espaço com alarme e videovigilância, senha exclusiva de acesso e cadeado de uso individual.</p>
         <p>Para mais informações, por favor, contacte-nos através dos seguintes meios:</p>
-         <div class="contact-info">
+        <div class="contact-info">
             <img src="email.JPG" alt="Email">
-	   </a>
             <p>Tlm: 928375940</p>
             <p>Rua de São Pedro, nº 6A, 2840-509 Seixal</p>
-	<h2>Brevemente novo site.</h2>
+            <h2>Brevemente novo site.</h2>
         </div>
     </div>
 </body>
 </html>
-
-
-
-
-
