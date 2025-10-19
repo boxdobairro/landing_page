@@ -2,10 +2,13 @@
   "routes": [
     {
       "route": "/api/*",
-      "methods": [ "GET", "POST" ],
+      "methods": [ "POST" ],
       "rewrite": "/api/{*}"
     }
   ],
+  "globalHeaders": {
+    "content-type": "application/json"
+  },
   "responseOverrides": {
     "400": {
       "rewrite": "/index.html",
