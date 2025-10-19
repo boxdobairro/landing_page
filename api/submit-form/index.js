@@ -4,8 +4,8 @@ const sgMail = require('@sendgrid/mail');
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 module.exports = async function (context, req) {
-    context.log('Form submission function processing request.');
-
+    context.log('Tentativa de envio de email - V2');
+    
     // 2. Extrair dados do formulário
     const { name, email, message } = req.body;
     
