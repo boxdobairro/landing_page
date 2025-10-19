@@ -10,3 +10,10 @@
         "post"
       ]
     },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    }
+  ]
+}
