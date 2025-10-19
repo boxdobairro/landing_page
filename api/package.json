@@ -1,8 +1,0 @@
-{
-  "name": "form-function",
-  "version": "1.0.0",
-  "description": "Azure Function to handle form submission",
-  "dependencies": {
-    "@sendgrid/mail": "^7.7.0"
-  }
-}
