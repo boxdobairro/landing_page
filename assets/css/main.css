@@ -146,7 +146,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			html {
-				font-size: 12pt;
+				font-size: 2.5rem;
 			}
 			/* Regra para aplicar padding horizontal a todas as secções principais */
     section, .content {
@@ -160,6 +160,7 @@ input, select, textarea {
 
 			html {
 				font-size: 11pt;
+				line-height:1.1;
 			}
 			/* Regra para aplicar padding horizontal a todas as secções principais */
     section, .content {
