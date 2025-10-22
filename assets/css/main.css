@@ -2515,11 +2515,13 @@ input, select, textarea {
 		.image.main {
 			display: block;
 			margin: 3rem 0;
-			width: 100%;
+			max-width: 100%;
+			height: auto;
 		}
 
 			.image.main img {
-				width: 100%;
+				max-width: 100%;
+				height: auto;
 			}
 
 			.image.main:first-child {
